@@ -1,0 +1,76 @@
+
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position:left;
+    filter: blur(1px) contrast(120%) brightness(110%) hue-rotate(-8deg);
+}
+.bg{
+    width:700px;
+    height: 300px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664298713025-3cc6a1093944?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHJldHJpZXZlcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    opacity: 90%;
+    position: relative;
+    color: rgb(62, 2, 2);
+    padding: 10px;
+    font-size: 12px;
+}
+.bg h1 button{
+    position: absolute;
+    top: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: orangered;
+    font-size: 16px;
+}
+h1::first-line{
+    color: white;
+}
+h1::first-letter{
+    color: aquamarine;
+}
+h1::selection{
+    background-color: rgb(0, 255, 76);
+}
+
+img:hover{
+    filter: blur(0px) brightness(140%);
+}
+input{
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+    border: 5px solid green;
+}
+p:first-child{
+    color: aquamarine;
+}
+p:last-child{
+    color: blue;
+}
+p:nth-child(5){
+    color: red;
+}
+
+button:active{
+    background-color: greenyellow;
+}
+
+p::selection{
+    background-color: bisque;
+    color: purple;
+}
+
