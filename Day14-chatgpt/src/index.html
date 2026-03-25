@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="flex">
+        <!-- side-bar -->
+         <div class="hidden sm:block bg-neutral-100 h-screen w-60 px-0.5 pr-4 text-sm">
+            <div class="flex items-center justify-between">
+                <img class="rounded-full h-6 my-3 mx-1  inline" src="logo.png" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg> 
+            </div>
+            <!-- options -->
+            <div class="flex flex-col px-4 py-2">
+                <div class="flex gap-2 py-2 hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-pencil-square"></i>
+                    <h2>New chat</h2>
+                </div>
+                <div class="flex gap-2 py-2 hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-search"></i>
+                    <h2>Search chats</h2>
+                </div>
+                <div class="flex gap-2 py-2 hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-images"></i>
+                    <h2>Images</h2>
+                </div>
+                <div class="flex gap-2 py-2 hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-app-indicator"></i>
+                    <h2>Apps</h2>
+                </div>
+                <div class="flex gap-2 py-2 hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-box"></i>
+                    <h2>Apps</h2>
+                </div>
+            </div>  
+            <!-- projects  -->
+            <div class="p-3 mx-2 mt-4">
+                <h2 class="text-neutral-500 mb-1">Projects</h2>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-folder-plus"></i>
+                    <h2 class="">New Project</h2>
+                </div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">
+                    <i class="bi bi-files"></i>
+                    <h2 class="">civicSense</h2>
+                </div>
+            </div>
+            <!-- Chats -->
+             <div class="p-3 mx-2 flex flex-col gap-1">
+                <h2 class="text-neutral-500">Your chats</h2>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Tailwind issues debugging</div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Tailwind Setup issues</div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Sorting Issue Fix</div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Deploy Folder on Vercel</div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Google Par Order Issue</div>
+                <div class="flex gap-2 py-2  hover:bg-neutral-200 cursor-pointer rounded-lg">Tailwind Setup issues</div>                
+            </div>
+            <!-- Profile Email -->
+            <div class="flex items-center m-3 ml-5 gap-3">
+                <button class="bg-pink-400 rounded-full h-7 w-7 text-neutral-100">TS</button>
+                <div class="flex flex-col">
+                    <h2>Teja D S</h2>
+                    <p class="text-neutral-400 text-xs">Go</p>
+                </div>
+            </div>
+        </div>
+        <!-- main-content -->
+        <div class="w-full sm:w-[calc(100%-240px)] relative h-screen">
+            <div class="flex justify-between items-center p-4">
+                <!-- top -->
+                <div class="flex gap-3 items-center">
+                    <div class="flex-col w-6">
+                        <p class="block leading-1.5 font-medium">—–</p>
+                        <p class="block leading-1.5 font-medium">–</p>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <h2 class="text-2xl">ChatGPT</h2>
+                        <i class="bi bi-chevron-down text-xs"></i>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2 text-2xl">
+                    <i class="bi bi-person-add"></i>
+                    <i class="bi bi-chat"></i>
+                </div>
+            </div>
+            <!-- middle-content -->
+            <div class="flex flex-col justify-center items-center m-auto w-full md:w-3/5 absolute bottom-5 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-5/6">
+                <h1 class="mb-5 text-3xl md:text-3xl text-center sm:text-xl">Ready when you are.</h1>
+                <!-- input box -->
+                <div class="border border-neutral-300 shadow-xl flex justify-between w-11/12 rounded-full p-3 text-2xl sm:text-xl md:w-full">
+                    <div class="text-xl">
+                        <i class="bi bi-plus-lg"></i>
+                        <input placeholder="Ask anything" class="text-sm outline-0">
+                    </div>
+                    <div class="flex gap-2 ">
+                        <i class="bi bi-mic"></i>
+                        <i class="bi bi-record-circle-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
