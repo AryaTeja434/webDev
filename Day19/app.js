@@ -23,7 +23,3 @@ console.log(dramaPitt)
 
 const dramaTim = movies.filter(movie=> movie.genre=="Drama").filter(movie=>movie.actors.includes("Tim Robbins")).map(movie=>movie.title)
 console.log(dramaTim)
-
-const titlesFor=movies.forEach(movie=> 
-    {return movie.title})
-console.log(titlesFor)
