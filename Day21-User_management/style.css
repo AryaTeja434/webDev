@@ -1,0 +1,70 @@
+.container{
+    width: 450px;
+    margin: 70px auto;
+}
+.inputs{
+    display: flex;
+    gap: 10px;
+}
+.name, .email{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 20px;
+    width: 50%;
+}
+.btn{
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.users{
+    width: 450px;
+    margin: 50px auto;
+    
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    background-color: hsl(0, 0%, 80%);
+    margin-bottom: 20px;
+}
+.del-btn{
+    padding:10px;
+    border-radius: 50%;
+    border: none;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    color: dar;
+}
+
+#alert{
+    width:170px;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top:10px;
+    left:50%;
+    transform: translate(-50%);
+    text-align: center;
+    border-radius: 10px;
+}
+.success{
+    background-color: hsl(120, 100%, 90%);
+    color: hsl(120, 100%, 20%);
+}
+.danger{
+    background-color: hsl(0, 100%, 90%);
+    color: hsl(0, 100%, 20%);
+}
