@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage and Session storage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div>
+        <h1 class="text-center font-black text-4xl my-5"> Hey <span></span> , welcome </h1>
+        <form class="text-center flex justify-center items-center gap-2">
+            <input class="border border-neutral-500 rounded-lg px-5 py-2" type="text" placeholder="enter your name">
+            <button class="rounded-lg bg-black text-white text-xl px-2 py-1">Save</button>
+        </form>
+        <p class="text-center">The name is saved in local storage</p>
+    </div>
+
+    <div class="counter text-center mt-[50px]">
+        <h1 class="text-center text-black font-bold text-4xl my-5">Counter</h1>
+        <p id="count" class="text-black font-black text-5xl mb-5">0</p>
+        <button id="increment" class="border rounded-lg bg-black text-white p-2">Increment</button>
+        <button id="decrement" class="border rounded-lg bg-black text-white p-2">Decrement</button>
+        <p>The counter is saved in session storage.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
