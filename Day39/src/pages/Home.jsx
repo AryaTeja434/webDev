@@ -12,7 +12,7 @@ function Home() {
 
 
   let apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent";
-  const apiKey = 'AIzaSyDWgrdKdQ7n8vJ_J2UFAWBfaA8vhNkNQHw'
+  const apiKey = 'Your Api Key'
   const headers = {
       'Content-Type': 'application/json',
       'x-goog-api-key': `${apiKey}`,
