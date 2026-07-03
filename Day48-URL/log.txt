@@ -1,0 +1,7 @@
+Name:Arya teja   Age:22
+Name:surya teja   Age:32Name:bhanu teja   Age:32
+Name:bhanu teja   Age:32
+Name:raghu teja   Age:32
+Name:raghu teja   Age:32
+  {"name":"raghu teja","age":"32"}Name:raghu teja   Age:32
+  {"name":"raghu teja","age":"32"}
